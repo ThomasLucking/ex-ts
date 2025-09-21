@@ -57,6 +57,6 @@ export function countElementsInAnArrayOfUnknown(
    */
   export function arrayOfStringsToArrayOfStringLength(array: string[]) {
     // Write your code here
-    // return array.map((str) => str.length);
+    return array.map((str) => str.length);
 
   }
