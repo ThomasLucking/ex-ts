@@ -48,15 +48,14 @@ export function countElementsInAnArrayOfUnknown(
   return array.length;
 }
 
-  /**
-   * Now, write a function that takes and array of string, and return a new array with the length
-   * of each initial strings at the same place in the array. For example :
-   * Given ["toto", "tim"] would give [4, 3]
-   *
-   * Complete the types and write the logic
-   */
-  export function arrayOfStringsToArrayOfStringLength(array: string[]) {
-    // Write your code here
-    return array.map((str) => str.length);
-
-  }
+/**
+ * Now, write a function that takes and array of string, and return a new array with the length
+ * of each initial strings at the same place in the array. For example :
+ * Given ["toto", "tim"] would give [4, 3]
+ *
+ * Complete the types and write the logic
+ */
+export function arrayOfStringsToArrayOfStringLength(array: string[]) {
+  // Write your code here
+  return array.map((str) => str.length);
+}
