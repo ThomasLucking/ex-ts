@@ -26,6 +26,15 @@ export type User2 = {
  */
 export function returnObjects(): [User1, User2] {
   // Write your code here
+  const user1: User1 = {
+    first_name: "toto",
+    last_name: "tutu",
+  };
+  const user2: User2 = {
+    first_name: "",
+    last_name: "",
+  };
+  return [user1, user2];
 }
 
 /**
@@ -36,5 +45,12 @@ export function returnObjects(): [User1, User2] {
  * - A field for the user address, witch is an object containing street, city and zip code fields
  */
 export type YourDetailedUser = {
-  // Write your code here
+  user_name: string;
+  birth_date: Date;
+  emails: string[];
+  address: {
+    street: string;
+    city: string;
+    zip: number;
+  };
 };
