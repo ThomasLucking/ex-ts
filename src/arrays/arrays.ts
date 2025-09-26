@@ -22,8 +22,11 @@ export function filterStringByLength(
   maxLength: number,
 ): string[] | [] {
   // Write your code here
+  return array.filter((stringlength) => stringlength.length >= minLength  && stringlength.length <= maxLength)
+  
 }
 
 export function getOnlyTheLowercaseLettersOfTheString(string: string): string {
   // Write your code here
+  // return string.replace(/[A-Z]/, "")
 }
