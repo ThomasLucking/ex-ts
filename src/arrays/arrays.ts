@@ -28,5 +28,5 @@ export function filterStringByLength(
 
 export function getOnlyTheLowercaseLettersOfTheString(string: string): string {
   // Write your code here
-  // return string.replace(/[A-Z]/, "")
+  return string.replace(/[0-9-A-Z]/g, "")
 }
